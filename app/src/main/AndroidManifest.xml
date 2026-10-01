@@ -25,6 +25,15 @@
             android:name=".ConsoleActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MyApp"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".mnActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
