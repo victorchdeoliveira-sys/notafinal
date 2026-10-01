@@ -9,5 +9,16 @@
     tools:context=".ConsoleActivity">
 
 
+    <androidx.cardview.widget.CardView
+      android:id="@+id/Pai"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#98FF98"
+
+
 
 </RelativeLayout>
