@@ -17,7 +17,64 @@
         android:clickable="true"
         android:focusable="true"
         app:cardCornerRadius="20dp"
-        app:cardBackgroundColor="#98FF98"
+        app:cardBackgroundColor="#98FF98">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario:"
+            android:textSize="20dp"
+            android:layout_margin="20dp"
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input1"
+            android:layout_below="@+id/texto1"
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+
+            />
+
+        <TextView
+            android:layout_below="@+id/input1"
+            android:id="@+id/texto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senha:"
+            android:textSize="20dp"
+            android:layout_margin="20dp"
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input2"
+            android:layout_below="@+id/texto2"
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+
+            />
+
+        <Button
+            android:id="@+id/butão1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginVertical="50dp"
+            android:text="acessar"
+
+
+    </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
 
 
 
