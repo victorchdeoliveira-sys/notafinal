@@ -15,23 +15,26 @@
         android:layout_height="80dp"
         android:textSize="50dp"
         android:text="MENU"
-        android:layout_marginLeft="130dp"/>
+        android:layout_marginLeft="130dp"
+        />
 
      <ImageView
          android:id="@+id/ceta"
          android:layout_width="40dp"
          android:layout_height="40dp"
          android:src="@drawable/baseline_arrow_back_ios_24"
-         android:layout_margin="14dp"/>
+         android:layout_margin="14dp"
+         />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/img1"
         android:layout_width="150dp"
         android:layout_height="250dp"
         android:layout_below="@+id/texto"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="26dp"
-        app:cardBackgroundColor="#333333" />
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="#333333"
+        />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/img2"
@@ -40,11 +43,50 @@
         android:layout_toRightOf="@+id/img1"
         android:layout_below="@+id/texto"
         app:cardBackgroundColor="#333333"
-        android:layout_margin="26dp"/>
-    
+        android:layout_margin="30dp"
+        />
+
     <androidx.cardview.widget.CardView
-        android:layout_width=""
-        android:layout_height=""
+        android:id="@+id/img3"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/img1"
+        app:cardBackgroundColor="#333333"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="57dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/img4"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/img2"
+        app:cardBackgroundColor="#333333"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/img3"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/img5"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/img3"
+        app:cardBackgroundColor="#333333"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="57dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/img6"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/img4"
+        app:cardBackgroundColor="#333333"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/img5"
+        android:layout_marginTop="30dp"
+        />
+
 
 
 
