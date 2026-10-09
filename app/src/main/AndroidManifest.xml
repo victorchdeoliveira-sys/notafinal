@@ -39,6 +39,15 @@
             android:exported="false"
             android:theme="@style/Theme.MyApp"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ULTRAActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MyApp"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ultrazActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
