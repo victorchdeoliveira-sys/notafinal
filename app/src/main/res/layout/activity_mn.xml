@@ -56,7 +56,7 @@
             android:text="ÁGUAS"
             android:layout_below="@+id/ft1"
             android:layout_marginTop="15dp"
-            android:layout_marginLeft="35dp"
+            android:layout_marginLeft="40dp"
 
 
     </RelativeLayout>
@@ -72,6 +72,29 @@
         app:cardBackgroundColor="#D8EBF2"
         app:cardCornerRadius="20dp">
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ft2"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:src="@drawable/agua"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="14dp"
+            />
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:text="ÁGUAS"
+            android:layout_below="@+id/ft2"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+        </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -83,6 +106,29 @@
         android:layout_marginTop="30dp"
         app:cardBackgroundColor="#D8EBF2"
         app:cardCornerRadius="20dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ft3"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:src="@drawable/agua"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="14dp"
+                />
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:text="ÁGUAS"
+                android:layout_below="@+id/ft3"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="40dp"
+        </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -95,6 +141,29 @@
         android:layout_toRightOf="@+id/img3"
         app:cardBackgroundColor="#D8EBF2"
         app:cardCornerRadius="20dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ft4"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:src="@drawable/agua"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="14dp"
+                />
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:text="ÁGUAS"
+                android:layout_below="@+id/ft4"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="40dp"
+        </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -107,6 +176,29 @@
         android:layout_marginTop="30dp"
         app:cardBackgroundColor="#D8EBF2"
         app:cardCornerRadius="20dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ft5"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:src="@drawable/agua"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="14dp"
+                />
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:text="ÁGUAS"
+                android:layout_below="@+id/ft5"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="40dp"
+        </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -120,6 +212,29 @@
         android:layout_toRightOf="@+id/img5"
         app:cardBackgroundColor="#D8EBF2"
         app:cardCornerRadius="20dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ft6"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:src="@drawable/agua"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="14dp"
+                />
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:text="ÁGUAS"
+                android:layout_below="@+id/ft6"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="40dp"
+        </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
 
