@@ -7,15 +7,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6D0B0B"
+    android:background="#5678"
     tools:context=".mnActivity">
 
     <TextView
         android:id="@+id/texto"
-        android:layout_width="150dp"
+        android:layout_width="500dp"
         android:layout_height="80dp"
-        android:layout_marginLeft="130dp"
-        android:text="MENU"
+        android:layout_marginLeft="60dp"
+        android:text="ENERGÉTICOS"
         android:textSize="50dp" />
 
     <ImageView
@@ -33,7 +33,7 @@
         android:layout_below="@+id/texto"
         android:layout_marginLeft="57dp"
         android:layout_marginTop="30dp"
-        app:cardBackgroundColor="#D8EBF2"
+        app:cardBackgroundColor="#32CD32"
         app:cardCornerRadius="20dp">
 
         <RelativeLayout
@@ -51,12 +51,12 @@
 
             <TextView
                 android:id="@+id/txt1"
-                android:layout_width="70dp"
+                android:layout_width="80dp"
                 android:layout_height="30dp"
                 android:layout_below="@+id/ft1"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="15dp"
-                android:text="ÁGUAS"
+                android:text="CLASSIC"
                 android:textSize="20dp"
 
 
@@ -93,7 +93,7 @@
                 android:layout_below="@+id/ft2"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="15dp"
-                android:text="ENERGETICOS"
+                android:text="ULTRA ZERO"
                 android:textSize="20dp"
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
@@ -105,7 +105,7 @@
         android:layout_below="@+id/img1"
         android:layout_marginLeft="57dp"
         android:layout_marginTop="30dp"
-        app:cardBackgroundColor="#D8EBF2"
+        app:cardBackgroundColor="#353839"
         app:cardCornerRadius="20dp">
 
         <RelativeLayout
@@ -128,7 +128,7 @@
                 android:layout_below="@+id/ft3"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="15dp"
-                android:text="CHÁS"
+                android:text="BLACK"
                 android:textSize="20dp"
         </RelativeLayout>
 
@@ -141,7 +141,7 @@
         android:layout_below="@+id/img2"
         android:layout_marginLeft="30dp"
         android:layout_toRightOf="@+id/img3"
-        app:cardBackgroundColor="#D8EBF2"
+        app:cardBackgroundColor="#89CFF0"
         app:cardCornerRadius="20dp">
 
         <RelativeLayout
@@ -159,12 +159,12 @@
 
             <TextView
                 android:id="@+id/txt4"
-                android:layout_width="70dp"
+                android:layout_width="150dp"
                 android:layout_height="30dp"
                 android:layout_below="@+id/ft4"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="15dp"
-                android:text="CAFÉS"
+                android:text="MANGO ZERO"
                 android:textSize="20dp"
         </RelativeLayout>
 
@@ -177,7 +177,7 @@
         android:layout_below="@+id/img3"
         android:layout_marginLeft="57dp"
         android:layout_marginTop="30dp"
-        app:cardBackgroundColor="#D8EBF2"
+        app:cardBackgroundColor="#FFB6C1"
         app:cardCornerRadius="20dp">
 
         <RelativeLayout
@@ -198,9 +198,9 @@
                 android:layout_width="70dp"
                 android:layout_height="30dp"
                 android:layout_below="@+id/ft5"
-                android:layout_marginLeft="40dp"
+                android:layout_marginLeft="50dp"
                 android:layout_marginTop="15dp"
-                android:text="SUCOS"
+                android:text="PINK"
                 android:textSize="20dp"
         </RelativeLayout>
 
@@ -214,7 +214,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@+id/img5"
-        app:cardBackgroundColor="#D8EBF2"
+        app:cardBackgroundColor="#301934"
         app:cardCornerRadius="20dp">
 
         <RelativeLayout
@@ -235,9 +235,9 @@
                 android:layout_width="150dp"
                 android:layout_height="30dp"
                 android:layout_below="@+id/ft6"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="40dp"
                 android:layout_marginTop="15dp"
-                android:text="REFRIGERANTES"
+                android:text="VIOLET"
                 android:textSize="20dp"
         </RelativeLayout>
 
